@@ -32,7 +32,7 @@ jobs:
   DeployStage:
     runs-on: ubuntu-latest
     needs: [build]
-    environment: Stage
+    environment: Staging
     steps:
        - uses: actions/checkout@v3
        - name: Start dev
